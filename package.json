@@ -1,0 +1,20 @@
+{
+  "name": "AppiumTest",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "generateMochawesome": "marge ./Reports/executionReport.json"
+  },
+  "dependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "parallel-mocha": "*",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.3.10",
+    "wdio-sauce-service": "~0.1",
+    "webdriverio": "*",
+    "wdio-spec-reporter": "0.0.5",
+    "wdio-mochawesome-reporter": "^1.0.0",
+    "mochawesome-report-generator": "^3.1.1"
+  }
+}

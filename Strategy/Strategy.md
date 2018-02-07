@@ -34,22 +34,22 @@ The objective of this document is to provide an strategy plan for the test autom
 
 ### Appium:
 
-Why Appium?
+#### Why Appium?
 >Appium server allows you to handle your automation tests on native, hybrid and mobile web apps so it provides a lot of flexibility and is one of the most mature frameworks for mobile automation also integrates very well with other automation frameworks like Selenium, WebdriverIO, Nightwatch.
 
 
 
 ## Continuous Integration
 ### JenkinsCI:
-Why Jenkins?
+#### Why Jenkins?
 >It’s one of the most used CI tools, also allows you to integrate with a lot of other tools to make your job easier via plugins like Github, Docker, SauceLabs, Browserstack, etc.
 
 ### Docker:
-Why Docker?
+#### Why Docker?
 >Allows you to create lot of containers  that will have your environment in a single VM which works very well for parallel testing using Selenium Grid and also gives you the possibility of take down the execution time of your tests in a very notable way.
 
 ### SauceLabs/TestObject:
-Why SauceLabs/TestObject?
+#### Why SauceLabs/TestObject?
 >Allows you to execute your mobile tests on real devices and contains a lot of possible combinations for the different platforms and operative systems
 
 ## Continuous  Integration Phases

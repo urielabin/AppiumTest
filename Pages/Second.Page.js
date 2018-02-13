@@ -1,6 +1,6 @@
 var Page = require('../Base/Page.js');
 
-var HomePage = Object.create(Page, {
+var SecondPage = Object.create(Page, {
 
   //APP ELEMENTS
   headerSP: {
@@ -157,4 +157,4 @@ var HomePage = Object.create(Page, {
   }
 });
 
-module.exports = HomePage;
+module.exports = SecondPage;

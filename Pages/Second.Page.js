@@ -1,4 +1,4 @@
-var Page = require('../Base/Page.js');
+var Page = require('./base/page');
 
 var SecondPage = Object.create(Page, {
 

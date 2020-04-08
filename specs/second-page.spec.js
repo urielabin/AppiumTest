@@ -1,6 +1,6 @@
 var expect = require('chai').expect;
-var FirstPage = require('../Pages/First.Page.js');
-var SecondPage = require('../Pages/Second.Page.js');
+var FirstPage = require('../pages/first.Page.js');
+var SecondPage = require('../pages/first.Page.js');
 var email = "test@mail.com";
 var comment = "new comment";
 var newMsg = "Now I have Focus";

@@ -12,8 +12,6 @@ Install [NodeJS](https://nodejs.org/en/download/)
 
 * XCUITest
 
-* SauceLabs Account
-
 # Environment
 
 Clone GitHub repository and install dependencies:
